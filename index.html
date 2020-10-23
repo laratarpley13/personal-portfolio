@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lara Tarpley Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  
+  <body>
+    <!--Header section with name and title-->
+    <header>
+      <div>
+        <h1>Lara Tarpley</h1>
+        <h3>Web Developer</h3>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-info">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+     <!--Intro Section-->
+     <section><!--Group #1 with 2 items-->
+     <h2 id="home">Meet Lara</h2>
+      <div class="group">
+        <div class="item">
+          <img src="portfolio-pic.jpg" alt="Picture of Lara outside" width="50" height="50">
+        </div> 
+        <div class="item">
+          <p>Hi! My name is Lara Tarpley.</p>
+          <p>I am a web developer based in Austin, Texas.</p>
+          <p>I love to create and work on making applications that are both visually appealing and user-friendly.</p>
+        </div>
+      </div>
+     </section>
+
+     <hr>
+
+     <!--About Me-->
+     <section><!--Group #2 with 2 items -->
+      <h2 id="about-me">About Lara</h2>
+      <div class="group">
+        <!--an about me section-->        
+          <div class="item">
+            <p>After completing my BA in economics and sociology, I was exploring programming in preparation for graduate school and in turn developed a love of coding which has now led me to pursuing a career in web development.</p>
+            <p>I love the process that goes into creating and maintaning applications and seeing the finished result at the end. </p>
+            <p>I also love to collaborate with, bounce ideas of off, and learn something new from fellow developers.</p>
+          </div>
+          <div class="item">
+            <p>Coding Languages:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+            <p>Outside of web development,I love to cook and develop new and creative recipes, almost anything crafty, and enjoy exploring the outdoors.</p>
+          </div>
+       </div>
+
+      <hr>
+
+      <section><!--Group #3 with 1 item-->
+         <h2 id="portfolio">Lara's Work</h2>
+        <div>
+          <!--Project Section-->
+          <p>Pizza project</p>
+        </div>
+      </section>
+      </main>
+
+
+    <footer>
+      <!--Contact Info plus links-->
+      <h3 id="contact-info">Contact Lara:</h3>
+      <div class="group"> <!--Email Form-->
+        <div class="item">
+          <!--Form for Name-->
+          <form action="https://formspree.io/ltarp13@gmail.com" method="post">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name">
+          </form>
+          <!--Form for Email-->
+          <form action="https://formspree.io/ltarp13@gmail.com" method="post">
+            <label for="email-address">Email:</label>
+            <input id="email-address" type="text" name="email-address">
+          </form>
+          <!--Form for Your Message-->
+          <form action="https://formspree.io/ltarp13@gmail.com" method="post">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </form>
+          <!--Form for Submit button-->
+          <form>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="item">
+          <nav>
+            <a href="https://www.linkedin.com/in/lara-tarpley" target="_blank">LinkedIn</a>
+            <a href="https://github.com/laratarpley13" target="_blank">GitHub</a>
+            <p>Email: ltarp13@gmail.com</p>
+          </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
